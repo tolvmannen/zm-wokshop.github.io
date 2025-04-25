@@ -1,0 +1,116 @@
+
+:root {
+	--snow-color: #fff;
+	--cyberspace-color: #1f2a36;
+	--black-color: #000;
+	--ash-color: #ededed;
+	--dark-color: #1f2a36;
+	--ocean-dark-color: #0477ce;
+
+	--ruby-color: #ff4069;
+	--ruby-light-color: #ff9fb4;
+	--peacock-color: #c27fec;
+	--peacock-light-color: #e0bff5;
+	--jade-color: #55c7b4;
+	--jade-light-color: #aae3d9;
+	--sandstone-color: #f99963;
+	--sandstone-light-color: #fcccb1;
+	--lemon-color: #ffce2e;
+	--lemon-light-color: #ffe696;
+	--ocean-color: #50b2fc;
+	--ocean-light-color: #a7d8fd;
+	--granit-color: #8E9297;
+	--concrete-color: #d8d8d8;
+
+	--font-scale: 1.3;
+    
+}
+
+html {
+	font-family: "Hanken Grotesk", sans-serif;
+	background-color: var(--ash-color);
+}
+
+h1 {
+	font-size: 2rem;
+	font-size: calc(2rem * var(--font-scale));
+	line-height: 2.5rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: .45rem;
+	padding-top: .05rem;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.333333rem;
+	font-size: calc(1.333333rem * var(--font-scale));
+	line-height: 1.75rem;
+	margin-bottom: .5rem;
+	margin-top: -.5rem;
+	padding-bottom: .21666655rem;
+	padding-top: .28333345rem;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.11111rem;
+	font-size: calc(1.11111rem * var(--font-scale));
+	line-height: 1.5rem;
+	margin-bottom: .5rem;
+	margin-top: -.5rem;
+	padding-bottom: .1388885rem;
+	padding-top: .3611115rem;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: .944444rem;
+	padding-bottom: .0805554rem;
+	padding-top: .4194446rem;
+	line-height: 1.5rem;
+	margin-bottom: .5rem;
+	margin-top: -.5rem;
+	font-weight: 400;
+}
+
+p, li {
+	font-size: 1rem;
+	font-size: calc(1rem * var(--font-scale));
+	line-height: 1.5rem;
+	margin-bottom: 1.5rem;
+	margin-top: -.5rem;
+	padding-bottom: .1rem;
+	padding-top: .4rem;
+}	
+
+
+.supersize {
+    font-size: 5rem;
+    line-height: 6.2rem;
+    margin-bottom: 1.1rem;
+    margin-top: -.7rem;
+    padding-bottom: .4rem;
+    padding-top: .4rem;
+}
+
+@media (min-width: 769px) {
+  .supersize {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    margin-top: -.5rem;
+    padding-bottom: .225rem;
+    padding-top: .275rem;
+  }
+}
+@media (min-width: 576px) {
+  .supersize {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: .5rem;
+    margin-top: -.5rem;
+    padding-bottom: .0375rem;
+    padding-top: .4625rem;
+  }
+}
